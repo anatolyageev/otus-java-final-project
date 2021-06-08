@@ -1,0 +1,18 @@
+.navbar .login-form .input-group {
+    margin-right: 4px;
+    float: left;
+}
+
+.navbar .login-form .form-control {
+    max-width: 158px;
+    border-radius: 0 2px 2px 0;
+}
+
+.navbar .navbar-right .dropdown-toggle::after {
+    display: none;
+}
+
+.avatar-img {
+    width: 40px;
+    height: 40px;
+}
