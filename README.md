@@ -3,6 +3,6 @@
 To run project 
 
 ```
-mvn tomcat7:run
+need to deploy to Tomcat server
 ```
 
