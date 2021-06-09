@@ -1,0 +1,13 @@
+<security>
+    <constraint>
+        <page>order</page>
+        <page>cart</page>
+        <page>registration</page>
+        <role>user</role>
+    </constraint>
+    <constraint>
+        <page>registration</page>
+        <page>adminPage</page>
+        <role>admin</role>
+    </constraint>
+</security>

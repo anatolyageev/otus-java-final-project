@@ -1,0 +1,14 @@
+<Context>
+    <Resource name="jdbc/ComputerShop"
+              auth="Container"
+              type="javax.sql.DataSource"
+              initialSize="10"
+              maxActive="100" maxIdle="30" maxWait="10000"
+              username="root"
+              password="pwd"
+              driverClassName="org.mariadb.jdbc.Driver"
+              defaultAutoCommit="false"
+              defaultTransactionIsolation="READ_COMMITTED"
+              connectionProperties="v$session.osuser=computer-shop;useUnicode=yes;characterEncoding=utf8;"
+              url="jdbc:mariadb://localhost:33061/computer_shop"/>
+</Context>
