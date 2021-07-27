@@ -167,6 +167,7 @@ CREATE TABLE `users` (
                          `last_name` varchar(200) NOT NULL,
                          `email` varchar(200) NOT NULL,
                          `password` varchar(200) NOT NULL,
+                         `password_salt` varchar(200),
                          `user_role` varchar(20) NOT NULL DEFAULT 'user'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -175,8 +176,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` VALUES
-(1, 'admin', 'Admin', 'Admin', 'admin@admin.com', '123', 'admin'),
-(2, 'test', 'test', 'test', 'test', '123', 'user');
+(1, 'admin', 'Admin', 'Admin', 'admin@admin.com', '123','no', 'admin'),
+(2, 'test', 'test', 'test', 'test', '123','no', 'user');
 
 --
 -- Indexes for dumped tables
